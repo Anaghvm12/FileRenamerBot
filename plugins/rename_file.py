@@ -45,10 +45,10 @@ async def set_caption(bot, update):
             reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('sʜᴏᴡ ᴄᴜʀʀᴇɴᴛ ᴄᴀᴘᴛɪᴏɴ', callback_data = "shw_caption")      
+                    InlineKeyboardButton('ᴄᴜʀʀᴇɴᴛ ᴄᴀᴘᴛɪᴏɴ', callback_data = "shw_caption")      
                 ],
                 [
-                    InlineKeyboardButton('ᴅᴇʟᴇᴛᴇ ᴄᴀᴘᴛɪᴏɴ', callback_data = "d_caption")
+                    InlineKeyboardButton('ᴅᴇʟ ᴄᴀᴘᴛɪᴏɴ', callback_data = "d_caption")
                 ]
             ]
         ) 
@@ -72,7 +72,7 @@ async def rename_doc(bot, update):
             await update.reply_text(
                 text="**Due To The Huge Traffic Only Channel Members Can Use This Bot Means You Need To Join The Below Mentioned Channel Before Using Me! **",
                 reply_markup=InlineKeyboardMarkup([
-                    [ InlineKeyboardButton(text="ᴊᴏɪɴ ᴍʏ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{update_channel}")]
+                    [ InlineKeyboardButton(text="⚠️ ᴊᴏɪɴ ᴍʏ ᴄʜᴀɴɴᴇʟ ⚠️", url=f"https://t.me/{update_channel}")]
               ])
             )
             return
