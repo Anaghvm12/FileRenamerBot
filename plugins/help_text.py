@@ -49,7 +49,7 @@ async def help_user(bot, update):
             await update.reply_text(
                 text="**Due To The Huge Traffic Only Channel Members Can Use This Bot Means You Need To Join The Below Mentioned Channel Before Using Me! **",
                 reply_markup=InlineKeyboardMarkup([
-                    [ InlineKeyboardButton(text="ᴊᴏɪɴ ᴍʏ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{update_channel}")]
+                    [ InlineKeyboardButton(text="⚠️ ᴊᴏɪɴ ᴍʏ ᴄʜᴀɴɴᴇʟ ⚠️", url=f"https://t.me/{update_channel}")]
               ])
             )
             return
@@ -60,20 +60,20 @@ async def help_user(bot, update):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('📝 𝖱ᴇɴᴀᴍᴇ', callback_data = "rnme")
+                    InlineKeyboardButton('📝 ʀᴇɴᴀᴍᴇ', callback_data = "rnme")
                 ],    
                 [    
-                    InlineKeyboardButton('🔁 𝖥ɪʟᴇ 𝖳ᴏ 𝖵ɪᴅᴇᴏ', callback_data = "f2v")
+                    InlineKeyboardButton('🔁 ғɪʟᴇ 𝖳ᴏ 𝖵ɪᴅᴇᴏ', callback_data = "f2v")
                 ],
                 [
-                    InlineKeyboardButton('🖼️ 𝖢ᴜsᴛᴏᴍ 𝖳ʜᴜᴍʙɴᴀɪʟ', callback_data = "cthumb")
+                    InlineKeyboardButton('🖼️ ᴄᴜsᴛᴏᴍ 𝖳ʜᴜᴍʙɴᴀɪʟ', callback_data = "cthumb")
                 ],    
                 [    
-                    InlineKeyboardButton('☢️ 𝖢ᴜsᴛᴏᴍ 𝖢ᴀᴘᴛɪᴏɴ', callback_data = "ccaption")
+                    InlineKeyboardButton('☢️ ᴄᴜsᴛᴏᴍ 𝖢ᴀᴘᴛɪᴏɴ', callback_data = "ccaption")
                 ],
                 [
-                    InlineKeyboardButton('😉 𝖠ʙᴏᴜᴛ ', callback_data = "about"),
-                    InlineKeyboardButton('⬅️ 𝖡ᴀᴄᴋ', callback_data = "ghelp")
+                    InlineKeyboardButton('😈 ᴀʙᴏᴜᴛ ', callback_data = "about"),
+                    InlineKeyboardButton('⬅️ ʙᴀᴄᴋ', callback_data = "ghelp")
                 ]
             ]
         )
@@ -122,8 +122,8 @@ async def cb_handler(client: Mai_bOTs , query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('ʙᴀᴄᴋ', callback_data = "ghelp"),
-                    InlineKeyboardButton("ᴄʟᴏsᴇ", callback_data = "close")
+                    InlineKeyboardButton('⬅️ ʙᴀᴄᴋ', callback_data = "ghelp"),
+                    InlineKeyboardButton("⛔ ᴄʟᴏsᴇ", callback_data = "close")
                 ]
             ]
         )
@@ -135,8 +135,8 @@ async def cb_handler(client: Mai_bOTs , query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('ʙᴀᴄᴋ', callback_data = "ghelp"),
-                    InlineKeyboardButton("ᴄʟᴏsᴇ", callback_data = "close")
+                    InlineKeyboardButton('⬅️ ʙᴀᴄᴋ', callback_data = "ghelp"),
+                    InlineKeyboardButton("⛔ ᴄʟᴏsᴇ", callback_data = "close")
                 ]
             ]
         )
@@ -152,8 +152,8 @@ async def cb_handler(client: Mai_bOTs , query: CallbackQuery):
                     InlineKeyboardButton("ᴅᴇʟᴇᴛᴇ ᴄᴀᴘᴛɪᴏɴ", callback_data = "d_caption")
                 ],
                 [
-                    InlineKeyboardButton('ʙᴀᴄᴋ', callback_data = "ghelp"),
-                    InlineKeyboardButton('ᴄʟᴏsᴇ', callback_data = "close")
+                    InlineKeyboardButton('⬅️ ʙᴀᴄᴋ', callback_data = "ghelp"),
+                    InlineKeyboardButton('⛔ ᴄʟᴏsᴇ', callback_data = "close")
                 ]
             ]
         )
@@ -165,8 +165,8 @@ async def cb_handler(client: Mai_bOTs , query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('ʙᴀᴄᴋ', callback_data = "ghelp"),
-                    InlineKeyboardButton("ᴄʟᴏsᴇ", callback_data = "close")
+                    InlineKeyboardButton('⬅️ ʙᴀᴄᴋ', callback_data = "ghelp"),
+                    InlineKeyboardButton("⛔ ᴄʟᴏsᴇ", callback_data = "close")
                 ]
             ]
         )
@@ -186,20 +186,20 @@ async def cb_handler(client: Mai_bOTs , query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('📝 𝖱ᴇɴᴀᴍᴇ', callback_data = "rnme")
+                    InlineKeyboardButton('📝 ʀᴇɴᴀᴍᴇ', callback_data = "rnme")
                 ],    
                 [    
-                    InlineKeyboardButton('🔁 𝖥ɪʟᴇ 𝖳ᴏ 𝖵ɪᴅᴇᴏ', callback_data = "f2v")
+                    InlineKeyboardButton('🔁 ғɪʟᴇ 𝖳ᴏ 𝖵ɪᴅᴇᴏ', callback_data = "f2v")
                 ],
                 [
-                    InlineKeyboardButton('🖼️ 𝖢ᴜsᴛᴏᴍ 𝖳ʜᴜᴍʙɴᴀɪʟ', callback_data = "cthumb")
+                    InlineKeyboardButton('🖼️ ᴄᴜsᴛᴏᴍ 𝖳ʜᴜᴍʙɴᴀɪʟ', callback_data = "cthumb")
                 ],    
                 [    
-                    InlineKeyboardButton('☢️ 𝖢ᴜsᴛᴏᴍ 𝖢ᴀᴘᴛɪᴏɴ', callback_data = "ccaption")
+                    InlineKeyboardButton('☢️ ᴄᴜsᴛᴏᴍ 𝖢ᴀᴘᴛɪᴏɴ', callback_data = "ccaption")
                 ],
                 [
-                    InlineKeyboardButton('😉 𝖠ʙᴏᴜᴛ ', callback_data = "about"),
-                    InlineKeyboardButton('⬅️ 𝖡ᴀᴄᴋ', callback_data = "ghelp")
+                    InlineKeyboardButton('😈 ᴀʙᴏᴜᴛ ', callback_data = "about"),
+                    InlineKeyboardButton('⬅️ ʙᴀᴄᴋ', callback_data = "ghelp")
                 ]
             ]
         )
@@ -217,8 +217,8 @@ async def cb_handler(client: Mai_bOTs , query: CallbackQuery):
                   reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('ʙᴀᴄᴋ', callback_data = "ccaption"),
-                    InlineKeyboardButton("ᴄʟᴏsᴇ", callback_data = "close")
+                    InlineKeyboardButton('⬅️ ʙᴀᴄᴋ', callback_data = "ccaption"),
+                    InlineKeyboardButton("⛔ ᴄʟᴏsᴇ", callback_data = "close")
                 ]
             ]
         )
@@ -230,8 +230,8 @@ async def cb_handler(client: Mai_bOTs , query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('ʙᴀᴄᴋ', callback_data = "ghelp"),
-                    InlineKeyboardButton("ᴄʟᴏsᴇ", callback_data = "close")
+                    InlineKeyboardButton('⬅️ ʙᴀᴄᴋ', callback_data = "ghelp"),
+                    InlineKeyboardButton("⛔ ᴄʟᴏsᴇ", callback_data = "close")
                 ]
             ]
         )
@@ -247,8 +247,8 @@ async def cb_handler(client: Mai_bOTs , query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('ʙᴀᴄᴋ', callback_data = "ccaption"),
-                    InlineKeyboardButton("ᴄʟᴏsᴇ", callback_data = "close")
+                    InlineKeyboardButton('⬅️ ʙᴀᴄᴋ', callback_data = "ccaption"),
+                    InlineKeyboardButton("⛔ ᴄʟᴏsᴇ", callback_data = "close")
                 ]
             ]
         )
