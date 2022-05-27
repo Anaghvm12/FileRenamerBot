@@ -60,23 +60,24 @@ async def help_user(bot, update):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('📝 ʀᴇɴᴀᴍᴇ', callback_data = "rnme")
+                    InlineKeyboardButton('📝 𝖱ᴇɴᴀᴍᴇ', callback_data = "rnme")
                 ],    
                 [    
-                    InlineKeyboardButton('📂 ғɪʟᴇ ᴛᴏ ᴠɪᴅᴇᴏ', callback_data = "f2v")
+                    InlineKeyboardButton('🔁 𝖥ɪʟᴇ 𝖳ᴏ 𝖵ɪᴅᴇᴏ', callback_data = "f2v")
                 ],
                 [
-                    InlineKeyboardButton('🎞️ ᴄᴜsᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ', callback_data = "cthumb")
+                    InlineKeyboardButton('🖼️ 𝖢ᴜsᴛᴏᴍ 𝖳ʜᴜᴍʙɴᴀɪʟ', callback_data = "cthumb")
                 ],    
                 [    
-                    InlineKeyboardButton('📑 ᴄᴜsᴛᴏᴍ ᴄᴀᴘᴛɪᴏɴ ', callback_data = "ccaption")
+                    InlineKeyboardButton('☢️ 𝖢ᴜsᴛᴏᴍ 𝖢ᴀᴘᴛɪᴏɴ', callback_data = "ccaption")
                 ],
                 [
-                    InlineKeyboardButton('😉 ᴀʙᴏᴜᴛ ', callback_data = "about")
+                    InlineKeyboardButton('😉 𝖠ʙᴏᴜᴛ ', callback_data = "about"),
+                    InlineKeyboardButton('⬅️ 𝖡ᴀᴄᴋ', callback_data = "ghelp")
                 ]
             ]
         )
-    )       
+     )       
 
 @Mai_bOTs.on_message(pyrogram.filters.command(["start"]))
 async def start_me(bot, update):
