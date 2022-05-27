@@ -95,7 +95,7 @@ async def start_me(bot, update):
             await update.reply_text(
                 text="**Due To The Huge Traffic Only Channel Members Can Use This Bot Means You Need To Join The Below Mentioned Channel Before Using Me! **",
                 reply_markup=InlineKeyboardMarkup([
-                    [ InlineKeyboardButton(text="ᴊᴏɪɴ ᴍʏ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{update_channel}")]
+                    [ InlineKeyboardButton(text="⚠️ 𝖩ᴏɪɴ 𝖬ʏ 𝖢ʜᴀɴɴᴇʟ ⚠️", url=f"https://t.me/{update_channel}")]
               ])
             )
             return
