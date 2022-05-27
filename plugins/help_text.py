@@ -69,7 +69,7 @@ async def help_user(bot, update):
                     InlineKeyboardButton('🖼️ ᴄᴜsᴛᴏᴍ 𝖳ʜᴜᴍʙɴᴀɪʟ', callback_data = "cthumb")
                 ],    
                 [    
-                    InlineKeyboardButton('☢️ ᴄᴜsᴛᴏᴍ 𝖢ᴀᴘᴛɪᴏɴ', callback_data = "ccaption")
+                    InlineKeyboardButton('📰 ᴄᴜsᴛᴏᴍ 𝖢ᴀᴘᴛɪᴏɴ', callback_data = "ccaption")
                 ],
                 [
                     InlineKeyboardButton('😈 ᴀʙᴏᴜᴛ ', callback_data = "about"),
@@ -198,7 +198,7 @@ async def cb_handler(client: Mai_bOTs , query: CallbackQuery):
                     InlineKeyboardButton('🖼️ ᴄᴜsᴛᴏᴍ 𝖳ʜᴜᴍʙɴᴀɪʟ', callback_data = "cthumb")
                 ],    
                 [    
-                    InlineKeyboardButton('☢️ ᴄᴜsᴛᴏᴍ 𝖢ᴀᴘᴛɪᴏɴ', callback_data = "ccaption")
+                    InlineKeyboardButton('📰 ᴄᴜsᴛᴏᴍ 𝖢ᴀᴘᴛɪᴏɴ', callback_data = "ccaption")
                 ],
                 [
                     InlineKeyboardButton('😈 ᴀʙᴏᴜᴛ ', callback_data = "about"),
