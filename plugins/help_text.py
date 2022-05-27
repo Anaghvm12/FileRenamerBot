@@ -104,7 +104,7 @@ async def start_me(bot, update):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('⬅️📛 ʙᴀᴄᴋ', callback_data = "ghelp"),
+                    InlineKeyboardButton('ʜᴇʟᴘ ⚙️', callback_data = "ghelp"),
                     InlineKeyboardButton("⛔ ᴄʟᴏsᴇ", callback_data = "close")
                 ]
             ]
