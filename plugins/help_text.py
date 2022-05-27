@@ -186,20 +186,24 @@ async def cb_handler(client: Mai_bOTs , query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('📝 𝖱ᴇɴᴀᴍᴇ', callback_data = "rnme"),
+                    InlineKeyboardButton('📝 𝖱ᴇɴᴀᴍᴇ', callback_data = "rnme")
+                ],    
+                [    
                     InlineKeyboardButton('🔁 𝖥ɪʟᴇ 𝖳ᴏ 𝖵ɪᴅᴇᴏ', callback_data = "f2v")
                 ],
                 [
-                    InlineKeyboardButton('🖼️ 𝖢ᴜsᴛᴏᴍ 𝖳ʜᴜᴍʙɴᴀɪʟ', callback_data = "cthumb"),
+                    InlineKeyboardButton('🖼️ 𝖢ᴜsᴛᴏᴍ 𝖳ʜᴜᴍʙɴᴀɪʟ', callback_data = "cthumb")
+                ],    
+                [    
                     InlineKeyboardButton('☢️ 𝖢ᴜsᴛᴏᴍ 𝖢ᴀᴘᴛɪᴏɴ', callback_data = "ccaption")
                 ],
                 [
-                    InlineKeyboardButton(' 🫣 ᴀʙᴏᴜᴛ', callback_data = "about")
+                    InlineKeyboardButton('😉 𝖠ʙᴏᴜᴛ ', callback_data = "about"),
+                    InlineKeyboardButton('⬅️ 𝖡ᴀᴄᴋ', callback_data = "ghelp")
                 ]
             ]
         )
-    )       
-
+     )       
     elif data =="shw_caption":
              try:
                 caption = await get_caption(query.from_user.id)
