@@ -202,7 +202,7 @@ async def cb_handler(client: Mai_bOTs , query: CallbackQuery):
                 ],
                 [
                     InlineKeyboardButton('😈 ᴀʙᴏᴜᴛ ', callback_data = "about"),
-                    InlineKeyboardButton('⬅️ ʙᴀᴄᴋ', callback_data = "ghelp")
+                    InlineKeyboardButton('⛔ ᴄʟᴏsᴇ', callback_data = "Close")
                 ]
             ]
         )
