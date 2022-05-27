@@ -73,7 +73,7 @@ async def help_user(bot, update):
                 ],
                 [
                     InlineKeyboardButton('😈 ᴀʙᴏᴜᴛ ', callback_data = "about"),
-                    InlineKeyboardButton('⬅️ ʙᴀᴄᴋ', callback_data = "ghelp")
+                    InlineKeyboardButton('⛔ ᴄʟᴏsᴇ', callback_data = "close")
                 ]
             ]
         )
@@ -149,8 +149,10 @@ async def cb_handler(client: Mai_bOTs , query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('sʜᴏᴡ ᴄᴜʀʀᴇɴᴛ ᴄᴀᴘᴛɪᴏɴ', callback_data = "shw_caption"),
-                    InlineKeyboardButton("ᴅᴇʟᴇᴛᴇ ᴄᴀᴘᴛɪᴏɴ", callback_data = "d_caption")
+                    InlineKeyboardButton('〽️ sʜᴏᴡ ᴄᴀᴘᴛɪᴏɴ', callback_data = "shw_caption"),
+                ],  
+                [     
+                    InlineKeyboardButton("🗑️ ᴅᴇʟᴇᴛᴇ ᴄᴀᴘᴛɪᴏɴ", callback_data = "d_caption")
                 ],
                 [
                     InlineKeyboardButton('⬅️ ʙᴀᴄᴋ', callback_data = "ghelp"),
