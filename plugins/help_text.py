@@ -89,11 +89,11 @@ async def start_me(bot, update):
         try:
             user = await bot.get_chat_member(update_channel, update.chat.id)
             if user.status == "kicked":
-               await update.reply_text(" Sorry,You've Been Flooding Me So My Owner Removed You From Using Me If You Think It's An Error Contact : @Faris_TG")
+               await update.reply_text(" sᴏʀʀʏ,ʏᴏᴜ'ᴠᴇ ʙᴇᴇɴ ғʟᴏᴏᴅɪɴɢ ᴍᴇ sᴏ ᴍʏ ᴏᴡɴᴇʀ ʀᴇᴍᴏᴠᴇᴅ ʏᴏᴜ ғʀᴏᴍ ᴜsɪɴɢ ᴍᴇ ɪғ ʏᴏᴜ ᴛʜɪɴᴋ ɪᴛ's ᴀɴ ᴇʀʀᴏʀ ᴄᴏɴᴛᴀᴄᴛ : @DARKWEBLOAD")
                return
         except UserNotParticipant:
             await update.reply_text(
-                text="**Due To The Huge Traffic Only Channel Members Can Use This Bot Means You Need To Join The Below Mentioned Channel Before Using Me! **",
+                text="**ᴅᴜᴇ ᴛᴏ ᴛʜᴇ ʜᴜɢᴇ ᴛʀᴀғғɪᴄ ᴏɴʟʏ ᴄʜᴀɴɴᴇʟ ᴍᴇᴍʙᴇʀs ᴄᴀɴ ᴜsᴇ ᴛʜɪs ʙᴏᴛ ᴍᴇᴀɴs ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ᴊᴏɪɴ ᴛʜᴇ ʙᴇʟᴏᴡ ᴍᴇɴᴛɪᴏɴᴇᴅ ᴄʜᴀɴɴᴇʟ ʙᴇғᴏʀᴇ ᴜsɪɴɢ ᴍᴇ! **",
                 reply_markup=InlineKeyboardMarkup([
                     [ InlineKeyboardButton(text="⚠️ 𝖩ᴏɪɴ 𝖬ʏ 𝖢ʜᴀɴɴᴇʟ ⚠️", url=f"https://t.me/{update_channel}")]
               ])
