@@ -2,8 +2,8 @@ class Translation(object):
     START_TEXT = """ <b> ʜᴇʟʟᴏ {} </b>, \n\n<b>ɪ ᴀᴍ ᴀ ғɪʟᴇ ʀᴇɴᴀᴍᴇ ʙᴏᴛ ᴡɪᴛʜ ғɪʟᴇ ᴛᴏ ᴠɪᴅᴇᴏ ᴄᴏɴᴠᴇʀᴛᴇʀ</b> \n\n <b>ᴄʟɪᴄᴋ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ғᴏʀ ᴍᴏʀᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ...🤗</b> \n\n <b>ᴘᴏᴡᴇʀᴇᴅ ʙʏ : @Universal_MoviesZ</b>"""
 
     BANNED_USER_TEXT = "sᴏʀʀʏ !! ʙᴜᴛ Dᴀʀᴋ ᴡᴇʙʟᴏᴀᴅ🇮🇳 ᴀs ʙᴀɴɴᴇᴅ ʏᴏᴜ ғʀᴏᴍ ᴜsɪɴɢ ᴛʜɪs ʙᴏᴛ. ᴛʜᴀᴛ ᴍᴇᴀɴs ʏᴏᴜ ᴄᴀɴ'ᴛ ʀᴜɴ ᴍᴇ ɴᴏᴡ! \n \n ᴄᴏɴᴛᴀᴄᴛ : @DARKWEBLOAD ғᴏʀ ᴍᴏʀᴇ ᴅᴇᴛᴀɪʟs.. " 
-    DOWNLOAD_START = "<b>ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ᴛᴏ ᴍʏ sᴇʀᴠᴇʀ !! ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ</b>"
-    UPLOAD_START = "<b>ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ᴄᴏᴍᴘʟᴇᴀᴛᴇᴅ ɴᴏᴡ ɪ'ᴍ ᴜᴘʟᴏᴀᴅɪɴɢ ɪɴᴛᴏ ᴛᴇʟᴇɢʀᴀᴍ</b>"
+    DOWNLOAD_START = "<b>ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ᴛᴏ ᴍʏ sᴇʀᴠᴇʀ !! ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ 😇</b>"
+    UPLOAD_START = "<b>ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ᴄᴏᴍᴘʟᴇᴀᴛᴇᴅ ɴᴏᴡ ɪ'ᴍ ᴜᴘʟᴏᴀᴅɪɴɢ ɪɴᴛᴏ ᴛᴇʟᴇɢʀᴀᴍ 😍</b>"
     AFTER_SUCCESSFUL_UPLOAD_MSG = "<b>ᴛʜᴀɴᴋs ғᴏʀ ᴜsɪɴɢ ᴍᴇ 🥰</b>"
     SAVED_CUSTOM_THUMB_NAIL = "<b>ᴛʜᴜᴍʙʟᴀɪɴ sᴀᴠᴇᴅ ✅ ᴛʜɪs ɪs ᴘᴇʀᴍᴇɴᴇɴᴛ</b> /delthumb 😐"
     DEL_ETED_CUSTOM_THUMB_NAIL = "<b>ᴛʜᴜᴍʙɴᴀɪʟ ᴄʟᴇᴀʀᴇᴅ sᴜᴄᴄᴇsғᴜʟʟʏ 🤦</b>"
