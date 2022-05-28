@@ -149,7 +149,7 @@ async def cb_handler(client: Mai_bOTs , query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('〽️ sʜᴏᴡ ᴄᴀᴘᴛɪᴏɴ', callback_data = "shw_caption"),
+                    InlineKeyboardButton('📰 sʜᴏᴡ ᴄᴀᴘᴛɪᴏɴ', callback_data = "shw_caption"),
                 ],  
                 [     
                     InlineKeyboardButton("🗑️ ᴅᴇʟᴇᴛᴇ ᴄᴀᴘᴛɪᴏɴ", callback_data = "d_caption")
