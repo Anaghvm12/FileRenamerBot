@@ -43,7 +43,7 @@ async def progress_for_pyrogram(current, total, ud_type, message, start):
             ''.join(["⊡" for i in range(20 - math.floor(percentage / 5))]),
             round(percentage, 2))
 
-        tmp = progress + "\n\n<b>✅ 𝖥ɪɴɪꜱʜᴇᴅ :</b>{0} \n\n<b>🗃️ 𝖳ᴏᴛᴀʟ 𝖲ɪᴢᴇ :</b> {1}\n\n<b>🚀 𝖲ᴘᴇᴇᴅ :</b> {2}/s\n\n<b>⏱️ Eᴛᴀ :</b> {3}\n".format(
+        tmp = progress + "\n<b>✅ 𝖥ɪɴɪꜱʜᴇᴅ :</b>{0} \n\n<b>🗃️ 𝖳ᴏᴛᴀʟ 𝖲ɪᴢᴇ :</b> {1}\n\n<b>🚀 𝖲ᴘᴇᴇᴅ :</b> {2}/s\n\n<b>⏱️ Eᴛᴀ :</b> {3}\n".format(
             humanbytes(current),
             humanbytes(total),
             humanbytes(speed),
